@@ -78,7 +78,7 @@ function Navbar() {
                 onClick={() => setIsOpen(false)}
                 spy={true}
                 to="why"
-                offset={-150}
+                offset={-200}
                 className={`${styles.navbarScrollLink} gray uppercase font-gilroy-light weight-3 pointer`}
                 style={{
                   fontSize: isBellow1800px ? "14px" : "20px",
@@ -91,7 +91,7 @@ function Navbar() {
                 activeClass={`${styles.navbarScrollActive}`}
                 onClick={() => setIsOpen(false)}
                 spy={true}
-                offset={-150}
+                offset={-200}
                 to="exclusive-club"
                 className={`${styles.navbarScrollLink} gray uppercase font-gilroy-light weight-3 pointer`}
                 style={{
@@ -120,7 +120,7 @@ function Navbar() {
                 onClick={() => setIsOpen(false)}
                 spy={true}
                 to="roadmap"
-                offset={-150}
+                offset={-200}
                 className={`${styles.navbarScrollLink} gray uppercase font-gilroy-light weight-3 pointer`}
                 style={{
                   fontSize: isBellow1800px ? "14px" : "20px",
@@ -187,7 +187,7 @@ function Navbar() {
                 onClick={() => setIsOpen(false)}
                 spy={true}
                 to="partners"
-                offset={-150}
+                offset={-200}
                 className={`${styles.navbarScrollLink} gray uppercase font-gilroy-light weight-3 pointer`}
                 style={{
                   fontSize: isBellow1800px ? "14px" : "20px",
@@ -200,7 +200,7 @@ function Navbar() {
                 activeClass={`${styles.navbarScrollActive}`}
                 onClick={() => setIsOpen(false)}
                 spy={true}
-                offset={-150}
+                offset={-200}
                 to="faq"
                 className={`${styles.navbarScrollLink} gray uppercase font-gilroy-light weight-3 pointer`}
                 style={{
